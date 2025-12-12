@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Catalogue - Online Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Catalogue</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div class="book">
+        <div>
+            <h3>The Great Gatsby</h3>
+            <p>$10</p>
+        </div>
+        <button onclick="addToCart('The Great Gatsby', 10)">Add to Cart</button>
+    </div>
+
+    <div class="book">
+        <div>
+            <h3>1984</h3>
+            <p>$12</p>
+        </div>
+        <button onclick="addToCart('1984', 12)">Add to Cart</button>
+    </div>
+
+    <div class="book">
+        <div>
+            <h3>Harry Potter</h3>
+            <p>$15</p>
+        </div>
+        <button onclick="addToCart('Harry Potter', 15)">Add to Cart</button>
+    </div>
+
+</div>
+
+</body>
+</html>
